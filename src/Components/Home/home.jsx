@@ -8,7 +8,8 @@ import Genre from "../Genre";
 import Search from "../Search";
 import Sort from "../Sort";
 import { Link } from "react-router-dom";
-const base_url = "http://localhost:4000/studs/books";
+// const base_url = "http://localhost:4000/studs/books"; 
+const base_url = "https://booksplash.onrender.com";
 
 export default function Home() {
    
