@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "install-server": "cd server && npm install",
-    "start-server": "cd server && node servid.js",
-    "install-client": "npm install",
-    "build-client": "npm run build",
-    "start-client": "npm run start"
+    "install-server": "npm install",
+    "start-server": "node servid.js"
   },
   "author": "",
   "license": "ISC",
