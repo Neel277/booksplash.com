@@ -1,0 +1,51 @@
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+
+  .search[type=text] {
+    width: 90px;
+    right:auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-left:none;
+    border-radius: 8px;
+    outline:none;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 10px 12px 8px;
+    -webkit-transition: width 0.25s ease-in-out;
+    transition: width 0.25s ease-in-out;
+  }
+  
+  .search[type=text]:focus {
+    width: 80%;
+    outline:none;
+  }
+  
+  
+  .search button[type=submit] {
+    float: left;
+    padding:10px 15px 14px 12px;
+    cursor: pointer;
+    width: 40px;
+    border: 3.5px solid #ccc;
+    border-right:none;
+    box-sizing: border-box;
+    border-radius: 8px;
+    outline:none;
+    font-size: 16px;
+    background-color: white;
+  
+    
+  }
+  
+  .search button[type=submit]:hover {
+    background: #ccc;
+  }
+
+
+
+  
+
+  
+  

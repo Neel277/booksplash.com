@@ -1,0 +1,190 @@
+[
+    {
+        "name": "Frankenstein",
+        "img": "https://upload.wikimedia.org/wikipedia/en/f/f2/Mary_Shelley%27s_Frankenstein_%281994%29_theatrical_poster.jpg",
+        "year": "1993",
+        "genre": ["Horror","Thriller","Fantasy"],
+        "rating": "9.2",
+        "author": "Mary W. Shelley"
+    },
+    {
+        "name": "The Picture of Dorian Gray",
+        "img": "https://cdn.kobo.com/book-images/beb1e634-1249-4694-aca0-d22d87256bad/353/569/90/False/the-picture-of-dorian-gray-301.jpg",
+        "year": "1890",
+        "genre": ["Sci-fi","Adventure"],
+        "rating": "9.6",
+        "author":"Oscar Wilde"
+
+    },
+    {
+        "name": "Moby Dick",
+        "img": "https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/51aV053NRjL._AC_UF1000,1000_QL80_.jpg",
+        "year": "1851",
+        "genre": ["Action", "Adventure"],
+        "rating": "8.4",
+        "author":"Herman Melville"             
+    },
+    {
+        "name": "Twenty Years After, by Alexandre Dumas, Père",
+        "img": "https://cdn.kobo.com/book-images/8b0fc50c-a6ee-4a66-bc65-771f0ca10ad4/353/569/90/False/twenty-years-after-98.jpg",
+        "year": "1845",
+        "genre": ["Drama","Romance"],
+        "rating": "8.7",
+        "author":"Alexander Dumas,Père"
+    },
+    {
+        "name": "Strange Case of Dr. Jekyll and Mr. Hyde",
+        "img": "https://m.media-amazon.com/images/I/61fB3-2oLJL._AC_UF1000,1000_QL80_.jpg",
+        "year": "1886",
+        "genre": ["Sci-fi","Fantasy","Horror"],
+        "rating": "8.4",
+        "author": "Robert Louis Stevenson"
+    },
+    {
+        "name": "A Tale of Two Cities",
+        "img": "https://cdn.kobo.com/book-images/a54d5c91-896b-470e-bafc-be5d1303dd9d/1200/1200/False/a-tale-of-two-cities-95.jpg",
+        "year": "1859",
+        "genre": ["Drama","Thriller"],
+        "rating": "8.8",
+        "author": "Charles Dickens"
+    },
+    {
+        "name": "The Scarlet Letter",
+        "img": "https://cdn.kobo.com/book-images/26578ed1-dce9-41a0-a4c3-211642af34b3/1200/1200/False/the-scarlet-letter-102.jpg",
+        "year": "1850",
+        "genre": ["Historical Fiction","Romance"],
+        "rating": "8.7",
+        "author":"Nathaniel Hawthorne"
+    },
+    {
+        "name": "The Great Gatsby by F. Scot Fitzgerald",
+        "img": "https://images.booksense.com/images/494/260/9782382260494.jpg",
+        "year": "1925",
+        "genre": ["Romance","Historical Fiction"],
+        "rating": "9",
+        "author":"F.Scott Fitzgerald"
+    },
+    {
+        "name": "The Expedition of Humphry Clinker",
+        "img": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale/jackets/9781847498083.jpg",
+        "year": "1771",
+        "genre": ["Drama","Family"],
+        "rating": "8.6",
+        "author":"Tobias Smollett"
+    },
+    {
+        "name": "The Enchanted April",
+        "img": "https://m.media-amazon.com/images/I/71j96pzn6lL._AC_UF1000,1000_QL80_.jpg",
+        "year": "1922",
+        "genre": ["Drama", "Romance"],
+        "rating": "9",
+        "author":"Elizabeth Von Arnim"
+    },
+    {
+        "name": "The Blue Castle",
+        "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1684723987i/95693.jpg",
+        "year": "1926",
+        "genre": ["Romance"],
+        "rating": "9.2",
+        "author":"L.M. Mongtogmery"
+    },
+    {
+        "name": "Little Women",
+        "img": "https://www.nobleobjects.com/cdn/shop/articles/Little-women_1024x1024.jpg?v=1614380341",
+        "year": "1868",
+        "genre": ["Comedy", "Drama"],
+        "rating": "9.1",
+        "author":"Louisa M. Alcott"
+    },
+    {
+        "name": "The Adventures of Sherlock Holmes",
+        "img": "https://5.imimg.com/data5/SELLER/Default/2022/12/LV/TL/SA/119096088/the-adventure-of-sherlock-holmes-by-sir-arthur-conan-doyle.jpg",
+        "year": "1892",
+        "genre": ["Crime", "Adventure","Neo-Noir"],
+        "rating": "9.3",
+        "author":"Sir Arthur Conan Doyle"
+    },
+    {
+        "name": "The Adventures of Huckleberry Finn",
+        "img": "https://images.ucpress.edu/covers/isbn13/9780520343641.jpg",
+        "year": "1884",
+        "genre": ["Family", "Adventure","Comedy"],
+        "rating": "8.6",
+        "author":"Mark Twain"
+    },
+    {
+        "name": "Romeo and Juliet",
+        "img": "https://m.media-amazon.com/images/I/51atigsyz8L.jpg",
+        "year": "1597",
+        "genre": ["Romance", "Thriller","Crime"],
+        "rating": "9",
+        "author":"William Shakespeare"
+    },
+    {
+        "name": "Pride and prejudice",
+        "img": "https://cdn.kobo.com/book-images/08ba5a67-f48d-420e-be8e-6de7a73b7d85/1200/1200/False/pride-prejudice-13.jpg",
+        "year": "1597",
+        "genre": ["Romance", "Drama"],
+        "rating": "9.2",
+        "author":"Jane Austen"
+    },
+    {
+        "name": "Dracula",
+        "img": "https://cdn.kobo.com/book-images/88a05cf1-a3b6-461b-a8f7-f0e25b06274a/353/569/90/False/dracula-bram-stoker.jpg",
+        "year": "1897",
+        "genre": ["Horror", "Thriller","Fantasy"],
+        "rating": "9.1",
+        "author":"Bram Stoker"
+    },
+    {
+        "name": "A Christmas Carol",
+        "img": "https://cdn.kobo.com/book-images/3d0eb956-4ff4-41c2-afa0-5e8504d2b8fb/1200/1200/False/a-christmas-carol-184.jpg",
+        "year": "1843",
+        "genre": ["Drama","Fantasy"],
+        "rating": "8.9",
+        "author":"Charles Dickens"
+    },
+    {
+        "name": "The Adventures of Ferdinand Count Fathom",
+        "img": "https://www.gutenberg.org/files/6761/6761-h/images/f1-frontispiece.jpg",
+        "year": "1753",
+        "genre": ["Adventure","Sci-fi"],
+        "rating": "8",
+        "author":"Tobias Smollett"
+    },
+    {
+        "name": "Crime and Punishment",
+        "img": "https://probono-india.in/Indian-Society/Paper_Image/554_7dfe1a803e988a73ac0201f4e9ecc82a.jpg",
+        "year": "1866",
+        "genre": ["Crime","Sci-fi"],
+        "rating": "9.2",
+        "author":"Fyodor Dostoevsky"
+    },
+    {
+        "name": "Great Expectations",
+        "img": "https://img.perlego.com/books/RM_Books/ingram_csplus_gexhsuob/9781649220714_300_450.webp",
+        "year": "1861",
+        "genre": ["Drama","Family"],
+        "rating": "8.5",
+        "author":"Charles Dickens"
+    },
+    {
+        "name": "Cranford",
+        "img": "https://m.media-amazon.com/images/I/51rSQWofz3L._AC_UF1000,1000_QL80_.jpg",
+        "year": "1853",
+        "genre": ["Drama","Sci-fi"],
+        "rating": "8.1",
+        "author":"Elizabeth C. Gaskell"
+    },
+    {
+        "name": "A Room With a View",
+        "img": "https://covers.storytel.com/jpg-640/9781974996018.c815a5d3-2a8d-464c-88fe-ae015c0e136e?optimize=high&quality=70",
+        "year": "1908",
+        "genre": ["Drama"],
+        "rating": "8.7",
+        "author":"E. M. Forster"
+    }
+ 
+] 
+
+

@@ -1,0 +1,101 @@
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+/* body, html {
+
+} */
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  .change .arrow {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  #title {
+    font-size:45px;
+    margin-left: 30px;
+    
+  }
+
+  #genre {
+    font-size:27px;
+    margin-left: 30px;
+    margin-top: -20px;
+
+  }
+
+  @media (max-width:600px) {
+    #title {
+      font-size:35px;
+      margin-top:10px;
+    }
+
+    #genre {
+      font-size: 20px;
+      margin-top: -25px;
+    }
+  }
+
+  @media (min-width:600px) and (max-width:700px) {
+    #desc {
+      text-overflow: clip;
+      text-wrap:wrap;
+      text-orientation: upright;
+    }
+  }
+
+  @media (max-width:435px)  {
+    #contact {
+      width: 113.5%;
+      right:0;
+      margin-right:0;
+      box-sizing:border-box;
+    }
+
+   #stats {
+    right: 0;
+    margin-right: 0;
+    width: 104.5%;
+    display:flex;
+    box-sizing:content-box;
+  }
+
+  #legal  {
+    right:0;
+    width: 104.5%;
+    padding: 20px;
+    box-sizing: content-box;
+  }
+
+  #about {
+    margin-left: 20px;
+    display:block;
+    
+  }
+
+
+
+
+}
+
+  

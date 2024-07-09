@@ -1,0 +1,194 @@
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+
+/* Style the custom scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #418896; /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* color of the thumb */
+  border-radius: 5px; /* roundness of the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color of the thumb on hover */
+}
+
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transition: transform 0.3s; /* Add a transition for smooth animation */
+
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+  .change {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: none;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  .w3-bar-blockA {
+    display: none;
+  }
+  
+  video {
+    width: 100%;
+    display: block;
+  }
+
+  .search[type=text] {
+    width: 90px;
+    right:auto;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-left:none;
+    border-radius: 8px;
+    outline:none;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 10px 12px 8px;
+    -webkit-transition: width 0.25s ease-in-out;
+    transition: width 0.25s ease-in-out;
+  }
+  
+  .search[type=text]:focus {
+    width: 80%;
+    outline:none;
+  }
+  
+  
+  .search button[type=submit] {
+    float: left;
+    padding:10px 15px 14px 12px;
+    cursor: pointer;
+    width: 40px;
+    border: 3.5px solid #ccc;
+    border-right:none;
+    box-sizing: border-box;
+    border-radius: 8px;
+    outline:none;
+    font-size: 16px;
+    background-color: white;
+  
+    
+  }
+  
+  .search button[type=submit]:hover {
+    background: #ccc;
+  }
+
+  
+ /* Remove extra left and right margins, due to padding */
+ .rowH {
+  margin: 0px -5px;  
+  display: flex;
+  flex-wrap:wrap;
+  margin: 5px -10px;
+  justify-content: center;
+}
+
+/* Clear floats after the columns */
+.rowH:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+  
+ #noResultsMessage {
+  text-overflow:"clip";
+  color: red;
+  text-wrap:wrap;
+  text-overflow: ellipsis;
+  position:absolute;
+  margin-left: 24px;
+  
+ }
+  
+
+  
+  .w3-input {
+    outline:2px palevioletred;
+  } 
+ 
+  footer {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 435px) {
+    
+    footer {
+      width: 113%;
+      right:0;
+      margin-right:0;
+      margin-left: 0;
+      padding: 20px;
+      box-sizing:border-box;
+      
+    }
+    
+    #newslet {
+      width: 104.5%;
+      box-sizing: content-box;
+    }
+
+    #end {
+      width: 100%;
+      box-sizing: content-box;
+    }
+
+    video {
+      width: 111%;
+      margin-left: 5px;
+      display:block;
+      position:relative;
+
+    }
+
+
+
+  }
+
+  
+  
+
+
+  /*  for book tabs bouncing ,, 1468px to 600px
+   flip tab unsymmetrical from 1330 to 990px && 989px to 600px 
+    and 600 to 990 spacing of book taps */
