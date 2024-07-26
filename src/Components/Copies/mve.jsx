@@ -3,7 +3,7 @@ import { Link, useNavigate,useParams } from "react-router-dom";
 import axios from "axios";
 import "./scrpt.js";
 import "./bok.css";
-
+import BLogo from "../Assets/booksplash_logo.png";
 import Booki from "./bcopies";
 import Home from "../Home/home.jsx";
 import { error } from "jquery";
@@ -136,7 +136,9 @@ const Bookse = ({match}) => {
 
             <div class="w3-top">
                 <div class="w3-bar w3-white w3-card" id="myNavbar">
-                    <Link to="/home" class="w3-bar-item w3-button w3-wide">BOoKsPlaSh</Link>
+                    <Link to="/home" class="w3-bar-item w3-button w3-wide">
+                    <img src={BLogo} style={{width:"35px",height:"35px"}} />
+                    BOoKsPlaSh</Link>
                     {/* <!-- Right-sided navbar links --> */}
                     <div class="w3-right w3-hide-small">
                         {/* <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
