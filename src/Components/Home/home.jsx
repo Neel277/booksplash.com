@@ -1,6 +1,7 @@
 import React, { useState , useEffect } from "react";
 import "./home.css";
 import Vid from "../Assets/Spiders.mp4";
+import BLogo from "../Assets/booksplash_logo.png";
 import Card from "../Rows";
 import axios from "axios";
 import Pagination from "../Pagination";
@@ -130,7 +131,7 @@ function w3_close() {
 <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style={{zIndex: "3", width: "250px"}} id="mySidebar" >
   <div class="w3-container w3-display-container w3-padding-16" style={{margin:0}} >
     <i onClick={w3_close} class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
-    <h3 class="w3-wide"><b>BOoKsPlaSh</b>
+    <h3 class="w3-wide"><b><img src={BLogo} style={{width:"58px",height:"59px"}}/>BOoKsPlaSh</b>
     <hr style={{marginTop:"10px",borderWidth:"3.5px"}}/>
     <hr style={{marginTop:"8px",borderWidth:"2.5px"}}/>
     <hr style={{marginTop:"6 px",borderWidth:"2.2px"}}/>
