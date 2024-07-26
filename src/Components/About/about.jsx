@@ -4,6 +4,8 @@ import { useState,useEffect } from "react";
 import "./about.css";
 import open from "../Assets/open_book.jpg";
 import knowl from "../Assets/atlas_book.jpg";
+import BLogo from "../Assets/booksplash_logo.png";
+
 import "./abs.js";
 
 
@@ -75,7 +77,9 @@ export default function About() {
             <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onClick={toggleFunction} title="Toggle Navigation Menu">
             <i class="fa fa-bars"></i>
             </a>
-            <Link to="/home" class="w3-bar-item w3-button">HOME</Link>
+            <Link to="/home" class="w3-bar-item w3-button">
+            <img src={BLogo} style={{height:"40px",width:"40px"}} />
+            </Link>
             <a onClick={About} class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
             <a onClick={Portf} class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
             <a onClick={Conta} class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
