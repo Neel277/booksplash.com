@@ -242,13 +242,17 @@ function w3_close() {
 						/>  
      
   {/* <!-- Product grid --> */}
-  <div id="book-row" class="rowH">
+  <div id="book-row" class="rowE">
   <div id="noResultsMessage" style={{display: showNoResultsMessage ? 'flex' : 'none' }}>
         {`Sorry Dear, No such book - ${search} found! Did you spell it correct ? 
         or just spell part of it which you know and it's fully correct`}
-      </div>
-    <Card books={obj.books ? obj.books : []} />
-   </div>
+  </div>
+  </div>
+  <br/><br/>
+  
+  <div id="book-row" class="rowH">
+  <Card books={obj.books ? obj.books : []} />
+  </div>
 
   <hr/>
   {/* <h3 style={{marginLeft:"10px"}}>Best Rom-Com Hits!</h3>
