@@ -134,14 +134,14 @@ body {
   text-wrap:wrap;
   text-overflow:clip;
   position:absolute;
-  margin:1px 12px;
+  margin:-2px 12px;
   
  }
   
  .rowE {
   display:flex;  
   flex-wrap:wrap;
-  margin: 40px -10px;
+  margin: 45px -10px;
   justify-content: center;
  } 
  
