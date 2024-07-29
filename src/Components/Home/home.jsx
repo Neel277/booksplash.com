@@ -248,7 +248,7 @@ function w3_close() {
         or just spell part of it which you know and it's fully correct`}
   </div>
   </div>
-  <br/><br/>
+  <br/><br/><br/>
   
   <div id="book-row" class="rowH">
   <Card books={obj.books ? obj.books : []} />
