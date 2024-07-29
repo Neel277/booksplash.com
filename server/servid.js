@@ -10,6 +10,12 @@ dbConnect();
             
 app.use(cors());
 
+app.use(express.static(path.join(__dirname, 'client/build')));
+
+app.get('*', (req, res) => {
+res.sendFile(path.join(__dirname + '/client/build/index.html'));
+});
+
 // app.get('/download/:language/:bookId', (req, res) => {
 //     const { language, bookId } = req.params;
 //     console.log('Request received:', { language, bookId });
