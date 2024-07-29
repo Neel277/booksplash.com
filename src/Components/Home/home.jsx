@@ -179,7 +179,9 @@ function w3_close() {
 {/* <!-- Top menu on small screens --> */}
 
 <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
-  <div class="w3-bar-item w3-padding-24 w3-wide">L</div>
+  <div class="w3-bar-item w3-padding-24 w3-wide">
+  <img src={BLogo} style={{width:"50px",height:"50px"}} />
+  </div>
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onClick={w3_open}><i class="fa fa-bars"></i></a>
 </header>
 
