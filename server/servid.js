@@ -8,10 +8,16 @@ const app = express();
 const axios = require("axios");
 dbConnect();
             
+//Middleware setup
 app.use(cors());
+
+app.use(express.json());
 
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, 'public')));
+
+// api call
+app.use("/studs", movieRoutes);
 
 // The "catchall" handler: for any request that doesn't match any route, send back the React index.html file.
 app.get('*', (req, res) => {
@@ -84,9 +90,10 @@ app.get('/download/:language/:bookId', async (req, res) => {
 
 
 
-app.use(express.json());
-
-app.use("/studs", movieRoutes);
+// The "catchall" handler: for any request that doesn't match the above, send back the React index.html file.
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => console.log(`Listening on port ${port}...`));
