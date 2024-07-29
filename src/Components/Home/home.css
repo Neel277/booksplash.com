@@ -91,6 +91,7 @@ body {
   
   .search button[type=submit] {
     float: left;
+    color:#555;
     padding:10px 15px 14px 12px;
     cursor: pointer;
     width: 40px;
@@ -112,10 +113,9 @@ body {
   
  /* Remove extra left and right margins, due to padding */
  .rowH {
-  margin: 0px -5px;  
   display: flex;
   flex-wrap:wrap;
-  margin: 5px -10px;
+  margin: 10px -10px;
   justify-content: center;
 }
 
