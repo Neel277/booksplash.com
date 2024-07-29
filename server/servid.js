@@ -10,10 +10,12 @@ dbConnect();
             
 app.use(cors());
 
-app.use(express.static(path.join(__dirname, 'client/build')));
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname, 'public')));
 
+// The "catchall" handler: for any request that doesn't match any route, send back the React index.html file.
 app.get('*', (req, res) => {
-res.sendFile(path.join(__dirname + '/client/build/index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 // app.get('/download/:language/:bookId', (req, res) => {
