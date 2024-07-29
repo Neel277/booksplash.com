@@ -124,21 +124,29 @@ body {
   content: "";
   display: table;
   clear: both;
-
 }
 
-  
  #noResultsMessage {
-  text-overflow:"clip";
+  padding: 8px 12px;
+  text-align:justify;
+  position:fixed;
   color: red;
   text-wrap:wrap;
-  text-overflow: ellipsis;
+  text-overflow:clip;
   position:absolute;
-  margin-left: 24px;
+  margin:1px 12px;
   
  }
   
+ .rowE {
+  display:flex;  
+  flex-wrap:wrap;
+  margin: 40px -10px;
+  justify-content: center;
+ } 
+ 
 
+ 
   
   .w3-input {
     outline:2px palevioletred;
