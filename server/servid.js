@@ -10,20 +10,12 @@ dbConnect();
             
 app.use(cors());
 
-// Serve static files from the React app
-// app.use(express.static(path.join(__dirname, 'public')));
-
-// // The "catchall" handler: for any request that doesn't match any route, send back the React index.html file.
-// app.get('*', (req, res) => {
-//   res.sendFile(path.join(__dirname, 'public', 'index.html'));
-// });
-
 // app.get('/download/:language/:bookId', (req, res) => {
 //     const { language, bookId } = req.params;
 //     console.log('Request received:', { language, bookId });
 
 //     // Assuming your filename is like 'en_64c4d9e128e4ff82b16fbc40.pdf'
-//     const pdfFileName = ${language}_${bookId}.pdf;
+//     const pdfFileName = `${language}_${bookId}.pdf`;
 //     const pdfPath = path.join(__dirname, 'copies', pdfFileName);
 
 //     console.log('Attempting to access file:', pdfPath);
@@ -42,13 +34,13 @@ app.use(cors());
 // app.use("/studs", movieRoutes);
 
 // const port = process.env.PORT || 4000;
-// app.listen(port, () => console.log(Listening on port ${port}...));
+// app.listen(port, () => console.log(`Listening on port ${port}...`));
 
 app.get('/download/:language/:bookId', async (req, res) => {
     const { language, bookId } = req.params;
     console.log('Request received:', { language, bookId });
 
-    const fileName = ${language}_${bookId}.pdf;
+    const fileName = `${language}_${bookId}.pdf`;
 
     let fileIds;
     try {
@@ -62,16 +54,16 @@ app.get('/download/:language/:bookId', async (req, res) => {
 
     const fileId = fileIds[fileName];
     if (!fileId) {
-        console.error(File ID not found for: ${fileName});
+        console.error(`File ID not found for: ${fileName}`);
         return res.status(404).send('File not found');
     }
 
-    // const driveUrl = https://drive.google.com/uc?export=download&id=${fileId};
-    const driveUrl = https://drive.usercontent.google.com/u/0/uc?id=${fileId}&export=download;
+    // const driveUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    const driveUrl = `https://drive.usercontent.google.com/u/0/uc?id=${fileId}&export=download`;
 
     try {
         const response = await axios.get(driveUrl, { responseType: 'arraybuffer' });
-        res.setHeader('Content-Disposition', attachment; filename=${fileName});
+        res.setHeader('Content-Disposition', `attachment; filename=${fileName}`);
         console.log('Parsed file IDs:', fileIds);
         console.log('Constructed file name:', fileName);
         res.setHeader('Content-Type', 'application/pdf');
@@ -89,4 +81,4 @@ app.use(express.json());
 app.use("/studs", movieRoutes);
 
 const port = process.env.PORT || 4000;
-app.listen(port, () => console.log(Listening on port ${port}...));
+app.listen(port, () => console.log(`Listening on port ${port}...`));
