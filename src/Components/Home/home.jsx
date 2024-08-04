@@ -305,8 +305,10 @@ function w3_close() {
         <p>Donations heartily only</p>
         <p>No matter how small!</p>
         <button class="w3-button w3-blue">
-          <a href="https://paypal.me/donations176?country.x=IN&locale.x=en_GB" 
-        className="link" disabled>Donate!</a></button>
+	{/* https://paypal.me/donations176?country.x=IN&locale.x=en_GB */}
+        <a href="" 
+        className="link">
+	Donate!</a></button>
         {/* <p><a href="">Help</a></p> */}
       </div>
 
