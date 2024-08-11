@@ -219,7 +219,7 @@ function w3_close() {
   <div class="w3-display-container w3-container">
     <video width="100%" autoPlay="true" loop="true" muted>
         <source src= {Vid} type="video/mp4" />
-        <img src="./Images/Spiders.mp4" style={{width:"100%"}} />
+        <img src="./Images/Spid.mp4" style={{width:"100%"}} />
     </video>
 
     <div class="w3-display-topleft w3-text-white" style={{padding:"24px 48px"}}>
