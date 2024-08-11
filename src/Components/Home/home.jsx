@@ -1,6 +1,6 @@
 import React, { useState , useEffect } from "react";
 import "./home.css";
-import Vid from "../Assets/Spiders.mp4";
+import Vid from "../Assets/Spid.mp4";
 import BLogo from "../Assets/booksplash_logo.png";
 import Card from "../Rows";
 import axios from "axios";
