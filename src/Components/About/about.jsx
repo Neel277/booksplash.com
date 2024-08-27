@@ -87,10 +87,9 @@ export default function About() {
 
         {/* <!-- Navbar on small screens --> */}
         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-            <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+            <a onClick={About}  class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a onClick={Portf} class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+            <a onClick={Conta} class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
         </div>
         </div>
 
