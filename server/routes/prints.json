@@ -1,1 +1,305 @@
-
+[
+  {
+    "_id": "65a6196e811856d34f61762c",
+    "name": "Frankenstein",
+    "img": "https://upload.wikimedia.org/wikipedia/en/f/f2/Mary_Shelley%27s_Frankenstein_%281994%29_theatrical_poster.jpg",
+    "year": "1993",
+    "genre": [
+      "Horror",
+      "Thriller",
+      "Fantasy"
+    ],
+    "rating": "9.2",
+    "author": "Mary W. Shelley",
+    "info": "Frankenstein; or, The Modern Prometheus is an 1818 novel written by English author Mary Shelley. Frankenstein tells the story of Victor Frankenstein, a young scientist who creates a sapient creature in an unorthodox scientific experiment"
+  },
+  {
+    "_id": "65a6196e811856d34f61762d",
+    "name": "The Picture of Dorian Gray",
+    "img": "https://cdn.kobo.com/book-images/beb1e634-1249-4694-aca0-d22d87256bad/353/569/90/False/the-picture-of-dorian-gray-301.jpg",
+    "year": "1890",
+    "genre": [
+      "Sci-fi",
+      "Adventure"
+    ],
+    "rating": "9.6",
+    "author": "Oscar Wilde",
+    "info": "The story revolves around a portrait of Dorian Gray painted by Basil Hallward, a friend of Dorian's and an artist infatuated with Dorian's beauty. Through Basil, Dorian meets Lord Henry Wotton and is soon enthralled by the aristocrat's hedonistic worldview: that beauty and sensual fulfillment are the only things worth pursuing in life. Newly understanding that his beauty will fade, Dorian expresses the desire to sell his soul,"
+  },
+  {
+    "_id": "65a6196e811856d34f61762f",
+    "name": "Twenty Years After, by Alexandre Dumas, Père",
+    "img": "https://cdn.kobo.com/book-images/8b0fc50c-a6ee-4a66-bc65-771f0ca10ad4/353/569/90/False/twenty-years-after-98.jpg",
+    "year": "1845",
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "rating": "8.7",
+    "author": "Alexander Dumas,Père",
+    "info": "Twenty Years After is a novel by Alexandre Dumas, first serialized from January to August 1845. A book of The d'Artagnan Romances, it is a sequel to The Three Musketeers and precedes the 1847–1850 novel The Vicomte de Bragelonne."
+  },
+  {
+    "_id": "65a6196e811856d34f61762e",
+    "name": "Moby Dick",
+    "img": "https://rukminim2.flixcart.com/image/850/1000/xif0q/book/b/w/t/moby-dick-original-imaghjkbnchgcfnj.jpeg",
+    "year": "1851",
+    "genre": [
+      "Action",
+      "Adventure"
+    ],
+    "rating": "8.4",
+    "author": "Herman Melville",
+    "info": "Moby-Dick; or, The Whale is an 1851 novel by American writer Herman Melville. The book is the sailor Ishmael's narrative of the maniacal quest of Ahab, captain of the whaling ship Pequod, for vengeance against Moby Dick, the giant white sperm whale that bit off his leg on the ship's previous voyage"
+  },
+  {
+    "_id": "65a6196e811856d34f617630",
+    "name": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+    "img": "https://m.media-amazon.com/images/I/61fB3-2oLJL._AC_UF1000,1000_QL80_.jpg",
+    "year": 1886,
+    "genre": [
+      "Sci-fi",
+      "Fantasy",
+      "Horror"
+    ],
+    "rating": 8.4,
+    "author": "Robert Louis Stevenson",
+    "info": "Strange Case of Dr Jekyll and Mr Hyde is an 1886 Gothic novella by Scottish author Robert Louis Stevenson. It follows Gabriel John Utterson, a London-based legal practitioner who investigates a series of strange occurrences between his old friend, Dr Henry Jekyll, and a murderous criminal named Edward Hyde."
+  },
+  {
+    "_id": "65a6196e811856d34f617631",
+    "name": "A Tale of Two Cities",
+    "img": "https://cdn.kobo.com/book-images/a54d5c91-896b-470e-bafc-be5d1303dd9d/1200/1200/False/a-tale-of-two-cities-95.jpg",
+    "year": 1859,
+    "genre": [
+      "Drama",
+      "Thriller"
+    ],
+    "rating": 8.8,
+    "author": "Charles Dickens",
+    "info": "A Tale of Two Cities is a historical novel published in 1859 by Charles Dickens, set in London and Paris before and during the French Revolution"
+  },
+  {
+    "_id": "65a6196e811856d34f617632",
+    "name": "The Scarlet Letter",
+    "img": "https://cdn.kobo.com/book-images/26578ed1-dce9-41a0-a4c3-211642af34b3/1200/1200/False/the-scarlet-letter-102.jpg",
+    "year": 1850,
+    "genre": [
+      "Historical Fiction",
+      "Romance"
+    ],
+    "rating": 8.7,
+    "author": "Nathaniel Hawthorne",
+    "info": "The Scarlet Letter: A Romance is a work of historical fiction by American author Nathaniel Hawthorne, published in 1850"
+  },
+  {
+    "_id": "65a6196e811856d34f617633",
+    "name": "The Great Gatsby",
+    "img": "https://images.booksense.com/images/494/260/9782382260494.jpg",
+    "year": 1925,
+    "genre": [
+      "Romance",
+      "Historical Fiction"
+    ],
+    "rating": 9,
+    "author": "F.Scott Fitzgerald",
+    "info": "Nick Carraway, a World War I veteran who works as a stock market trader after settling in NYC. However, he finds himself attracted to Jay Gatsby and his flamboyant lifestyle."
+  },
+  {
+    "_id": "65a6196e811856d34f617634",
+    "name": "The Expedition of Humphry Clinker",
+    "img": "https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_360,c_scale/jackets/9781847498083.jpg",
+    "year": 1771,
+    "genre": [
+      "Drama",
+      "Family"
+    ],
+    "rating": 8.6,
+    "author": "Tobias Smollett",
+    "info": "The Expedition of Humphry Clinker was the last of the picaresque novels of Tobias Smollett, published in London on 17 June 1771, and is considered by many to be his best and funniest work."
+  },
+  {
+    "_id": "65a6196e811856d34f617635",
+    "name": "The Enchanted April",
+    "img": "https://m.media-amazon.com/images/I/71j96pzn6lL._AC_UF1000,1000_QL80_.jpg",
+    "year": 1922,
+    "genre": [
+      "Drama",
+      "Romance"
+    ],
+    "rating": 9,
+    "author": "Elizabeth Von Arnim",
+    "info": "The Enchanted April is a 1922 novel by British writer Elizabeth von Arnim. The work was inspired by a month-long holiday to the Italian Riviera, probably the most widely read and perhaps the lightest and most ebullient of her novels. Von Arnim wrote and set the book in the 15th century Castello Brown"
+  },
+  {
+    "_id": "65a6196e811856d34f617636",
+    "name": "The Blue Castle",
+    "img": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1684723987i/95693.jpg",
+    "year": 1926,
+    "genre": [
+      "Romance"
+    ],
+    "rating": 9.2,
+    "author": "L.M.Montogmery",
+    "info": "The Blue Castle is a 1926 novel by Canadian author Lucy Maud Montgomery, best known for her novel Anne of Green Gables. The story is set during the early 1900s in the fictional town of Deerwood, located in the Muskoka region of Ontario, Canada. Deerwood is based on Bala, Ontario, which Montgomery visited in 1922"
+  },
+  {
+    "_id": "65a6196e811856d34f617637",
+    "name": "Little Women",
+    "img": "https://www.nobleobjects.com/cdn/shop/articles/Little-women_1024x1024.jpg?v=1614380341",
+    "year": 1868,
+    "genre": [
+      "Comedy",
+      "Drama"
+    ],
+    "rating": 9.1,
+    "author": "Louisa M. Alcott",
+    "info": "Little Women is a coming-of-age novel written by American novelist Louisa May Alcott, originally published in two volumes in 1868 and 1869. The story follows the lives of the four March sisters—Meg, Jo, Beth, and Amy—and details their passage from childhood to womanhood"
+  },
+  {
+    "_id": "65a6196e811856d34f617638",
+    "name": "The Adventures of Sherlock Holmes",
+    "img": "https://5.imimg.com/data5/SELLER/Default/2022/12/LV/TL/SA/119096088/the-adventure-of-sherlock-holmes-by-sir-arthur-conan-doyle.jpg",
+    "year": 1892,
+    "genre": [
+      "Crime",
+      "Adventure",
+      "Neo-Noir"
+    ],
+    "rating": 9.3,
+    "author": "Sir Arthur Conan Doyle",
+    "info": "The Adventures of Sherlock Holmes is a collection of twelve short stories by British writer Arthur Conan Doyle, first published on 14 October 1892."
+  },
+  {
+    "_id": "65a6196e811856d34f617639",
+    "name": "The Adventures of Huckleberry Finn",
+    "img": "https://images.ucpress.edu/covers/isbn13/9780520343641.jpg",
+    "year": 1884,
+    "genre": [
+      "Family",
+      "Adventure",
+      "Comedy"
+    ],
+    "rating": 8.6,
+    "author": "Mark Twain",
+    "info": "Adventures of Huckleberry Finn is a novel by American author Mark Twain, which was first published in the United Kingdom in December 1884 and in the United States in February 1885"
+  },
+  {
+    "_id": "65a6196e811856d34f61763a",
+    "name": "Romeo and Juliet",
+    "img": "https://m.media-amazon.com/images/I/51atigsyz8L.jpg",
+    "year": 1597,
+    "genre": [
+      "Romance",
+      "Thriller",
+      "Crime"
+    ],
+    "rating": 9,
+    "author": "William Shakespeare",
+    "info": "Romeo and Juliet is a tragedy written by William Shakespeare early in his career about the romance between two Italian youths from feuding families. It was among Shakespeare's most popular plays during his lifetime"
+  },
+  {
+    "_id": "65a6196e811856d34f61763b",
+    "name": "Pride and prejudice",
+    "img": "https://cdn.kobo.com/book-images/08ba5a67-f48d-420e-be8e-6de7a73b7d85/1200/1200/False/pride-prejudice-13.jpg",
+    "year": 1597,
+    "genre": [
+      "Romance",
+      "Drama"
+    ],
+    "rating": 9.2,
+    "author": "Jane Austen",
+    "info": "Pride and Prejudice is the second novel by English author Jane Austen, published in 1813. A novel of manners, it follows the character development of Elizabeth Bennet, the protagonist of the book, who learns about the repercussions of hasty judgments and comes to appreciate the difference between superficial goodness and actual goodness."
+  },
+  {
+    "_id": "65a6196e811856d34f61763c",
+    "name": "Dracula",
+    "img": "https://cdn.kobo.com/book-images/88a05cf1-a3b6-461b-a8f7-f0e25b06274a/353/569/90/False/dracula-bram-stoker.jpg",
+    "year": 1897,
+    "genre": [
+      "Horror",
+      "Thriller",
+      "Fantasy"
+    ],
+    "rating": 9.1,
+    "author": "Bram Stoker",
+    "info": "Dracula is a novel by Bram Stoker, published in 1897. An epistolary novel, the narrative is related through letters, diary entries, and newspaper articles. It has no single protagonist and opens with solicitor Jonathan Harker taking a business trip to stay at the castle of a Transylvanian nobleman, Count Dracula"
+  },
+  {
+    "_id": "65a6196e811856d34f61763d",
+    "name": "A Christmas Carol",
+    "img": "https://cdn.kobo.com/book-images/3d0eb956-4ff4-41c2-afa0-5e8504d2b8fb/1200/1200/False/a-christmas-carol-184.jpg",
+    "year": 1843,
+    "genre": [
+      "Drama",
+      "Fantasy"
+    ],
+    "rating": 8.9,
+    "author": "Charles Dickens",
+    "info": "A Christmas Carol. In Prose. Being a Ghost Story of Christmas, commonly known as A Christmas Carol, is a novella by Charles Dickens, first published in London by Chapman & Hall in 1843 and illustrated by John Leech."
+  },
+  {
+    "_id": "65a6196e811856d34f61763e",
+    "name": "The Adventures of Ferdinand Count Fathom",
+    "img": "https://www.gutenberg.org/files/6761/6761-h/images/f1-frontispiece.jpg",
+    "year": 1753,
+    "genre": [
+      "Adventure",
+      "Sci-fi"
+    ],
+    "rating": 8,
+    "author": "Tobias Smollett",
+    "info": "The Adventures of Ferdinand, Count Fathom is a novel by Tobias Smollett first published in 1753. It was Smollett's third novel and met with less success than his two previous more picaresque tales."
+  },
+  {
+    "_id": "65a6196e811856d34f61763f",
+    "name": "Crime and Punishment",
+    "img": "https://probono-india.in/Indian-Society/Paper_Image/554_7dfe1a803e988a73ac0201f4e9ecc82a.jpg",
+    "year": 1866,
+    "genre": [
+      "Crime",
+      "Sci-fi"
+    ],
+    "rating": 9.2,
+    "author": "Fyodor Dostoevsky",
+    "info": "Crime and Punishment is a novel by the Russian author Fyodor Dostoevsky. It was first published in the literary journal The Russian Messenger in twelve monthly installments during 1866. It was later published in a single volume."
+  },
+  {
+    "_id": "65a6196e811856d34f617640",
+    "name": "Great Expectations",
+    "img": "https://img.perlego.com/books/RM_Books/ingram_csplus_gexhsuob/9781649220714_300_450.webp",
+    "year": 1861,
+    "genre": [
+      "Drama",
+      "Family"
+    ],
+    "rating": 8.5,
+    "author": "Charles Dickens",
+    "info": "Great Expectations is the thirteenth novel by Charles Dickens and his penultimate completed novel. It depicts the education of an orphan nicknamed Pip. It is Dickens' second novel, after David Copperfield, to be fully narrated in the first person."
+  },
+  {
+    "_id": "65a6196e811856d34f617641",
+    "name": "Cranford",
+    "img": "https://m.media-amazon.com/images/I/51rSQWofz3L._AC_UF1000,1000_QL80_.jpg",
+    "year": 1853,
+    "genre": [
+      "Drama",
+      "Sci-fi"
+    ],
+    "rating": 8.1,
+    "author": "Elizabeth C. Gaskell",
+    "info": "Cranford is an episodic novel by English author Elizabeth Gaskell. It first appeared in instalments in the magazine Household Words, then was published with minor revisions as a book with the title Cranford in 1853"
+  },
+  {
+    "_id": "65a6196e811856d34f617642",
+    "name": "A Room With a View",
+    "img": "https://covers.storytel.com/jpg-640/9781974996018.c815a5d3-2a8d-464c-88fe-ae015c0e136e?optimize=high&quality=70",
+    "year": 1908,
+    "genre": [
+      "Drama"
+    ],
+    "rating": 8.7,
+    "author": "E. M. Forster",
+    "info": "A Room with a View is a 1908 novel by English writer E. M. Forster, about a young woman in the restrained culture of Edwardian era England. Set in Italy and England, the story is both a romance and a humorous critique of English society at the beginning of the 20th century"
+  }
+]
