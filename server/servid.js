@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const dbConnect = require("./dbConnect");
-const movieRoutes = require("./routes/books");
+const bookRoutes = require("./routes/books");
 const cors = require("cors");
 const path= require('path');
 const app = express();
@@ -78,7 +78,9 @@ app.get('/download/:language/:bookId', async (req, res) => {
 
 app.use(express.json());
 
-app.use("/studs", movieRoutes);
+app.use("/api",bookRoutes);
+
+// app.use("/studs", movieRoutes);
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => console.log(`Listening on port ${port}...`));
