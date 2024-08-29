@@ -8,7 +8,7 @@ const Search = ({ setSearch , scrollToCard, handleNoResults}) =>  {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:4000/studs/books');
+        const response = await fetch('http://localhost:4000/api/books');
         const data = await response.json();
         setSearchResult(data.books ? data.books[''].name : '' );
                   
