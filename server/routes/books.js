@@ -1,67 +1,71 @@
+const Book = require("./prints");
 const router = require("express").Router();
-const Book = require("../models/Book");
+// const Book = require("../models/Book"); 
 // const books = require("../config_data/mo.json");
 
-router.get("/books", async (req, res) => {
-	try {
-		const page = parseInt(req.query.page) - 1 || 0;
-		const limit = parseInt(req.query.limit) || 6;
-		const search = req.query.search || "";
-		let sort = req.query.sort || "rating";
-		let genre = req.query.genre || "All";
+router.get("/books", (req, res) => {
+    try {
+        const page = parseInt(req.query.page) - 1 || 0;
+        const limit = parseInt(req.query.limit) || 6;
+        const search = req.query.search || "";
+        let sort = req.query.sort || "rating";
+        let genre = req.query.genre || "All";
+        let minYear = parseInt(req.query.minYear) || 0;
+        let maxYear = parseInt(req.query.maxYear) || new Date().getFullYear();
+        let minRating = parseFloat(req.query.minRating) || 0;
+        let maxRating = parseFloat(req.query.maxRating) || 10;
 
-		const genreOptions = [
-			"Action",
-			"Romance",
-			"Fantasy",
-			"Drama",
-			"Crime",
-			"Adventure",
-			"Thriller",
-			"Sci-fi",
-			"Music",
-			"Family",
-		];
+        const genreOptions = [
+            "Action", "Romance", "Fantasy", "Drama", "Crime", 
+            "Adventure", "Thriller", "Sci-fi", "Music", "Family", "Horror"
+        ];
 
-		genre === "All"
-			? (genre = [...genreOptions])
-			: (genre = req.query.genre.split(","));
-		req.query.sort ? (sort = req.query.sort.split(",")) : (sort = [sort]);
+        genre = genre === "All" ? genreOptions : req.query.genre.split(",");
 
-		let sortBy = {};
-		if (sort[1]) {
-			sortBy[sort[0]] = sort[1];
-		} else {
-			sortBy[sort[0]] = "asc";
-		}
+        // Filter by search, genre, year, and rating
+        let filteredBooks = Book.filter(book => {
+            const bookGenres = book.genre || [];
+            const genreMatch = genre.some(g => bookGenres.includes(g));
+            const searchMatch = book.name.toLowerCase().includes(search.toLowerCase());
+            const yearMatch = parseInt(book.year) >= minYear && parseInt(book.year) <= maxYear;
+            const ratingMatch = parseFloat(book.rating) >= minRating && parseFloat(book.rating) <= maxRating;
 
-		const books = await Book.find({ name: { $regex: search, $options: "i" } })
-			.where("genre")
-			.in([...genre])
-			.sort(sortBy)
-			.skip(page * limit)
-			.limit(limit);
-			
+            return genreMatch && searchMatch && yearMatch && ratingMatch;
+        });
 
-		const total = await Book.countDocuments({
-			genre: { $in: [...genre] },
-			name: { $regex: search, $options: "i" },
-		});
+        // Sort the books
+        sort = sort.split(",");
+        const sortKey = sort[0];
+        // const sortOrder = sort[1] === "asc" ? -1 : 1;
 
-		const response = {
-			error: false,
-			total,            		
-			page: page + 2,
-			limit,
-			genres: genreOptions,
-			books,
-		};
+        filteredBooks = filteredBooks.sort((a, b) => {
+            if (sortKey === "rating") {
+                return (parseFloat(b.rating) - parseFloat(a.rating)) ;
+            } else if (sortKey === "year") {
+                return (parseInt(a.year) - parseInt(b.year));
+            } else {
+                return a.name.localeCompare(b.name);
+            }
+        });
 
-		res.status(200).json(response);
-	} catch (err) {
-		console.log(err);
-		res.status(500).json({ error: true, message: "Internal Server Error" });
-	}
+        // Pagination
+        const paginatedBooks = filteredBooks.slice(page * limit, (page + 1) * limit);
+
+        // Response
+        const response = {
+            error: false,
+            total: filteredBooks.length,
+            page: page + 1,
+            limit,
+            genres: genreOptions,
+            books: paginatedBooks,
+        };
+
+        res.status(200).json(response);
+    } catch (err) {
+        console.error("Error processing the request:", err);
+        res.status(500).json({ error: true, message: "Internal Server Error" });
+    }
 });
 
 // router.get("/movies/:id", async (req,res) => {
