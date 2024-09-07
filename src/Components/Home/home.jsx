@@ -25,7 +25,7 @@ const [rom , setRom] = useState([]);
 const [showNoResultsMessage, setShowNoResultsMessage] = useState(false);
 
 
-2
+
 const scrollToCard = () => {
   const cardElement = document.getElementById('book-row');
   if (cardElement) {
