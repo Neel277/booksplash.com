@@ -182,7 +182,9 @@ function w3_close() {
   <div class="w3-bar-item w3-padding-24 w3-wide">
   <img src={BLogo} style={{width:"50px",height:"50px"}} />
   </div>
-  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onClick={w3_open}><i class="fa fa-bars"></i></a>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" 
+	style={{padding:"20px 15px 25px 20px", marginTop:"0px"}}
+	  onClick={w3_open}><i class="fa fa-bars"></i></a>
 </header>
 
 {/* <!-- Overlay effect when opening sidebar on small screens --> */}
