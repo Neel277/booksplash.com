@@ -179,8 +179,8 @@ function w3_close() {
 {/* <!-- Top menu on small screens --> */}
 
 <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
-  <div class="w3-bar-item w3-padding-24 w3-wide">
-  <img src={BLogo} style={{width:"50px",height:"50px"}} />
+  <div class="w3-bar-item w3-padding-23 w3-wide">
+  <img src={BLogo} style={{width:"52px",height:"52px",marginTop:"9px",marginBottom:"6px"}} />
   </div>
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" 
 	style={{padding:"20px 15px 25px 20px", marginTop:"0px"}}
