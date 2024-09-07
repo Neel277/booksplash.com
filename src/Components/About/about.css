@@ -1,51 +1,111 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+/* Global styles */
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", sans-serif;
+}
 body, html {
   height: 100%;
   color: #777;
   line-height: 1.8;
 }
 
-/* Create a Parallax Effect */
+/* Parallax effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url('https://images7.alphacoders.com/133/1338193.png');
-  height:max-content;
+  height: max-content;
 }
 
 @media (max-width:435px) {
-    .bgimg-1  {
+  .bgimg-1 {
     width: 100%;
-    display:flex;
+    display: flex;
     margin-left: 25px;
     justify-content: center;
     justify-self: center;
     flex-wrap: wrap;
-    }
+  }
+}
+
+/* Custom styling for navbar */
+#myNavbar {
+  margin-top: -12px;
+}
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+
+.w3-hover {
+  cursor: pointer;
+}
+
+.w3-bar-item {
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Base styles for .w3-bar-item */
+.w3-bar-item {
+  background-color: transparent !important; /* Default background is transparent */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and color */
+  display: block; /* Ensures the element takes up the full width */
+  width: 100%; /* Ensure the element takes the full width */
+  padding: 10px 15px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensure padding and border are included in the total width and height */
+}
+
+/* Hover state for .w3-bar-item */
+.w3-bar-item:hover {
+  background-color: white !important; /* Background color on hover */
+  color: black !important; /* Ensure text color stands out */
+}
+
+/* Active state for .w3-bar-item */
+.w3-bar-item:active {
+  background-color: lightgrey !important; /* Slightly different color to indicate active state */
+  color: black !important; /* Ensure text color stands out */
+}
+
+/* Focus state for .w3-bar-item */
+.w3-bar-item:focus {
+  background-color: transparent !important; /* Remove background color on focus */
+  color: inherit; /* Inherit text color */
+  outline: none; /* Remove focus outline */
+}
+
+/* To ensure that background color disappears when not hovered or clicked */
+.w3-bar-item:not(:hover):not(:active):not(:focus) {
+  background-color: transparent !important;
 }
 
 
 
-/* Second image (Portfolio) */
-.bgimg-2 {
-  min-height: 400px;
+
+/* To reset the color when not hovering or active */
+.w3-bar-item:not(:hover):not(:focus) {
+  background-color: transparent;
 }
 
-/* Third image (Contact) */
-.bgimg-3 {
-  min-height: 400px;
+.w3-show {
+  display: block !important;
 }
 
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
+.w3-hide {
+  display: none !important;
+}
 
-/* Turn off parallax scrolling for tablets and phones */
+/* To ensure that active background disappears */
+#mei:active {
+  color: aqua;
+  background-color: none;
+  width: 100%;
+}
+
+/* For mobile devices */
 @media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
