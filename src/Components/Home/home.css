@@ -126,6 +126,16 @@ body {
   clear: both;
 }
 
+#cross {
+  padding: 2px 13px; 
+}
+
+#cross:active {
+  margin-top: 0px;
+  margin-right: -1px;
+  padding: 12px 13px;
+}
+
  #noResultsMessage {
   padding: 8px 12px;
   text-align:justify;
