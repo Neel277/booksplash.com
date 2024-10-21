@@ -112,7 +112,7 @@ function w3_close() {
    
     return (
         <>
-        <title>booksplash.com</title>
+        <title>pageastra.com</title>
 <head>        
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -131,7 +131,7 @@ function w3_close() {
 <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style={{zIndex: "3", width: "250px"}} id="mySidebar" >
   <div class="w3-container w3-display-container w3-padding-16" style={{margin:0}} >
     <i id="cross" onClick={w3_close} class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
-    <h3 class="w3-wide"><b><img src={BLogo} style={{width:"58px",height:"59px"}}/>BOoKsPlaSh</b>
+    <h3 class="w3-wide"><b><img src={BLogo} style={{width:"58px",height:"59px"}}/>pAgeAstrA</b>
     <hr style={{marginTop:"10px",borderWidth:"3.5px"}}/>
     <hr style={{marginTop:"8px",borderWidth:"2.5px"}}/>
     <hr style={{marginTop:"6 px",borderWidth:"2.2px"}}/>
@@ -169,7 +169,7 @@ function w3_close() {
 
     {/* <Link to="" class="w3-bar-item w3-button">Social</Link> */}
     {/* <a href="#" class="w3-bar-item w3-button">Collab/Partners</a> */}
-    <Link to="/about" class="w3-bar-item w3-button">About Booksplash</Link>
+    <Link to="/about" class="w3-bar-item w3-button">About Pageastra</Link>
 
   </div>
 
@@ -307,8 +307,7 @@ function w3_close() {
         <p>Donations heartily only</p>
         <p>No matter how small!</p>
         <button class="w3-button w3-blue">
-	{/* https://paypal.me/donations176?country.x=IN&locale.x=en_GB */}
-        <a href="" 
+		<a href="https://paypal.me/nergeekondonations?country.x=IN&locale.x=en_GB" 
         className="link">
 	Donate!</a></button>
         {/* <p><a href="">Help</a></p> */}
@@ -322,7 +321,7 @@ function w3_close() {
     <Link className="link" to="" style={{textAlign:"center",color:"whitesmoke",marginBottom:"15px"}}>Good Read!</Link>
             <div clas="w3-xsmall w3-section" style={{color:"whitesmoke",fontSize:"10px"}}> 
             <p style={{marginTop:"26px",marginBottom:"-8px"}}>copyright©
-                booksplash.com</p>
+                pageastra.com</p>
             <p style={{}}>All rights reserved</p>     
             </div> 
     </footer>
