@@ -138,7 +138,7 @@ const Bookse = ({match}) => {
                 <div class="w3-bar w3-white w3-card" id="myNavbar">
                     <Link to="/home" class="w3-bar-item w3-button w3-wide">
                     <img src={BLogo} style={{width:"35px",height:"35px"}} />
-                    BOoKsPlaSh</Link>
+                    pAgeAstrA</Link>
                     {/* <!-- Right-sided navbar links --> */}
                     <div class="w3-right w3-hide-small">
                         {/* <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
@@ -342,7 +342,7 @@ const Bookse = ({match}) => {
                 </div> 
                 <div clas="w3-xsmall w3-section">        
                 <p style={{fontSize:"10px",marginBottom:"-10px"}}>copyright©
-                booksplash.com</p>
+                pageastra.com</p>
                 <p style={{fontSize:"10px"}}>All rights reserved</p>      
                 </div> 
             </footer>
