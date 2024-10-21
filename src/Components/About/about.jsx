@@ -63,11 +63,12 @@ export default function About() {
   };
 
 
-
     return (
         <>
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta name="description" content="PageAstra - A global platform to discover and read free books, comics, and literature from various genres and languages." />
+            <meta name="keywords" content="free books, knowledge reading, Project Gutenberg, free literature, comics, multilingual books, eBooks, online platform" />
             <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -119,14 +120,17 @@ export default function About() {
                 {/* About Section */}
                 <section id="aboust">
                 <div className="w3-content w3-container w3-padding-64" id="about">
-                    <h3 className="w3-center">ABOUT BOOKSPLASH.COM</h3>
-                    <p className="w3-center"><em>read more & expand your reach</em></p>
+                    <h3 className="w3-center">ABOUT PAGEASTRA.COM</h3>
+                    <p className="w3-center"><em>read more & expand your knowledge and range</em></p>
                     <p>
-                        What started as a simple web application for curricular and impression building
-                        gradually developed into an enthusiasm for spreading knowledge and education globally.
-                        We aim to connect people from different linguistic regions without any differentiation
-                        or restrictions on books, literature, etc.
+                    PageAstra is a global online platform designed to help readers explore a vast library of free books, comics, and literature across multiple languages. 
+                    We began as a small project to promote education and quickly evolved into a hub for readers from all walks of life. 
+                    Our mission is to break barriers by offering unrestricted access to classic literature, modern books, and comics. 
+                    Whether you're a fan of timeless novels, indie comics, or educational materials, PageAstra provides a seamless and enriching reading experience. 
+                    Powered by <strong>Project Gutenberg</strong> and constantly growing, our collection is designed for anyone looking to expand their knowledge,
+                    improve their language skills, or simply enjoy a good read.
                     </p>
+
                     <div className="w3-row">
                         <div className="w3-col m6 w3-center w3-padding-large">
                             <p><b>Project Gutenberg</b></p><br />
@@ -134,8 +138,8 @@ export default function About() {
                         </div>
                         <div className="w3-col m6 w3-hide-small w3-padding-large">
                             <p>
-                                We load all the copyright-free books from Project Gutenberg for commercial distribution.
-                                Booksplash provides literature in a comfy interface in multiple languages, with more being added.
+                                We load all and only public domain books for commercial distribution.
+                                pageastra provides literature in a comfy interface in multiple languages(coming soon), with more being added.
                             </p>
                         </div>
                     </div>
@@ -181,7 +185,7 @@ export default function About() {
                             <div className="w3-large w3-margin-bottom">
                                 <i className="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Anywhere<br />
                                 <i className="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +91 000xxxxx<br />
-                                <i className="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: booksplash@gmail.com<br />
+                                <i className="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: pageastra@gmail.com<br />
                             </div>
                         </div>
                     </div>
@@ -202,7 +206,7 @@ export default function About() {
 
                     <div clas="w3-xsmall w3-section">        
                     <p style={{fontSize:"10px",marginBottom:"-10px",marginTop:"20px"}}>copyright©
-                        booksplash.com</p>
+                        pageastra.com</p>
                     <p style={{fontSize:"10px"}}>All rights reserved</p>      
                     </div> 
                 </footer>
@@ -210,3 +214,4 @@ export default function About() {
         </>
     );
 }
+
