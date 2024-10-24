@@ -191,16 +191,18 @@ const Bookse = ({match}) => {
                 <div className="w3-col m6">
                     <label htmlFor="language">Select Language: </label>
                     <select id="language" name="language" onChange={handleLanguageChange} value={selectedLanguage}>
-                    <option value="en">English</option>    
-                    <option value="ar">Arabic</option>
-                    <option value="chi">Chinese</option>
-                    <option value="fr">French</option>
-                    <option value="ger">German</option>
-                    <option value="hi">Hindi</option>
-                    <option value="mr">Marathi</option>
-                    <option value="jp">Japanese</option>
-                    <option value="ru">Russian</option>
+                    <option value="en">English</option> 
                     <option value="esp">Spanish</option>
+                    <option value="chi">Chinese(Simplified)</option>
+                    <option value="ger">German</option>
+                    <option value="fr">French</option>
+                    <option value="por">Portuguese</option>                        
+                    <option value="ru">Russian</option>
+                    <option value="itl">Italian</option>
+                    <option value="ar">Arabic</option>
+                    <option value="hi">Hindi</option>
+                    <option value="jp">Japanese</option>
+                    <option value="kor">Japanese</option>
 
                     </select>
                     <p style={{color:"burlywood"}}>{errorm}</p>
